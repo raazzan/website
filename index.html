@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الالعـاب الالـكتـرونيه</title>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+body{
+background: linear-gradient(
+    135deg,
+    #f1fdfff1,
+    #c2c2bd 
+    );
+    
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+}
+
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    padding-left: 15px;
+
+}
+
+.navigation a{
+    color: #4a4b4d;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #6232db;
+}
+
+section {
+    padding: 90px 100px;
+    letter-spacing: 0.5px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 0.9em;
+}
+.top{
+    text-align: center;
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 150px 250px ;  
+}
+
+.game-btn{
+    color: rgb(231, 228, 223);
+    background-color: rgb(61, 61, 61);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    transition: 0.5s ease;
+
+}
+
+.game-btn:hover{
+    background-color: rgb(61, 61, 61);
+    transform: scale(1.1);
+
+}
+
+
+
+.table{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #121311e3;
+}
+.table a{
+    text-decoration: none;
+    color: #464944e3;
+}
+.table a:hover{
+    color: #3c2c63;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+    float:right;
+
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #ebebeb;
+    color: rgb(24, 23, 23);
+    transform: rotateY(180deg);
+    padding-top: 30px;
+
+  }
+
+    </style>
+</head>
+<body>
+<header>
+    <img src="/logo.jpg" alt="logo" height="60" width="60">
+        <nav class="navigation" >
+            <a href="/index.html">Home</a> 
+            <a href="/game.html">Games</a>                   
+                  
+        </nav>
+</header>
+<section class="top" >
+    <h1>الالـعـاب الالـكتـرونيـة</h1>
+    <div>
+        <a href="/game.html" class="game-btn"> let us play !</a> 
+    </div>
+    <br> <br> <br>
+
+</section>
+<section class="table">
+    <p><b> جدول المحتويات</b>
+    <ul class="table">
+        <li> <a href="#def"> ماهي الالعاب الالكترونيه </a></li>
+        <li> <a href="#benfiet"> فوائد الألعاب الإلكترونية </a></li>
+        <li> <a href="#dam"> سلبيات الألعاب الإلكترونية</a></li>
+        <li> <a href="#popular">  الألعاب الشهيرة والمحبوبة حاليًا</a></li>
+
+    </ul>
+    </p>
+</section>
+<section class="main" id="def">
+    <h2>  تعرف الألعاب الإلكترونية بأنها:    </h2>
+    <p>
+أنشطة افتراضية يندمج فيها اللاعبون داخل عالم افتراضي غير حقيقي وفق قواعد وضوابط محددة سلفا
+ وتنتهي بنتائج يمكن قياسها بطريقة كمية، وتعمل هذه الألعاب الرقمية 
+ الإلكترونية على التليفزيون أو جهاز البلاي ستيشن أو الحاسب الآلي أو الهواتف المحمولة أو الآيباد وغير ذلك من الأجهزة المخصصة لها، وتختلف أنواع تلك الألعاب من حيث طبيعة
+  مشاركة اللاعب سواء من كونه محارباً في ألعاب الحرب والقتال والرغبة في السيطرة على الآخرين، ومنها
+   ألعاب السباق أو ألعاب التفكير والذكاء والألغاز، ومنها ألعاب المغامرات والمشاركة في العوالم الافتراضية بصور مختلفة، ولكل نوع من هذه الأنواع مميزاته وعيوبه،
+  وأياًّ كان الهدف من تلك الألعاب الإلكترونية فإنها أصبحت واقعاً يسيطر على غالبية الشباب والأطفال.
+    </p>
+</section>
+<section class="main" id="benfiet">
+    <h2>فوائد الألعاب الإلكترونية</h2>
+    <p>للألعاب الإلكترونية تأثير كبير على الثقافة العامة للأفراد، بسبب انتشارها الواسع بينهم، 
+        ويُمكن حصر فوائد الألعاب الإلكترونية بما يلي
+        <br>
+<ul>
+    <li><b>الألعاب الإلكترونية تَزيد من الأداء المعرفي: </b>
+    تُشير بعض الدراسات إلى أن الأطفال الذين يلعبون ألعاب الفيديو 
+    غالباً ما يكون لديهم أداء فكري مُرتفع، وكفاءة دراسية عالية،
+     نسبةً إلى الذين لم يلعبوا بهذه الألعاب. </li>
+     <li> <b> الألعاب الإلكترونية تُحسن التناسق بين اليد والعين:</b>
+        إذ تتطلب أغلب ألعاب الفيديو بغض النظر عن موضوعها من اللاعبين استخدام أوامر دقيقة تؤثر على تناسُق حركة اليد مع النظر. الألعاب الإلكترونية
+     </li>
+     <li> <b> تُحسن عملية اتخاذ القرار:</b>
+        حيث تعتمد معظم ألعاب الفيديو على تطوير استراتيجيات معينة خلال اللعبة، مما يُساعد على اتخاذ القرارات بشكل أفضل وأسرع. 
+
+        </li>
+        <li> <b> الألعاب الإلكترونية تَزيد الاهتمام بالتكنولوجيا: </b>
+            حيث يتأقلم الأفراد مع التكنولوجيا الحديثة من خلال الألعاب الإلكترونية، وتَزيد من اهتمامهم بها. 
+        
+        </li>
+        <li> <b> الألعاب الإلكترونية تَشحذ التفكير الاستراتيجي والمهارات المنطقية:</b>
+                حيث تتطلب هذه الألعاب وضع استراتيجيات للتمكُن من التقدم إلى المستويات التالية، وإنهاء اللعبة والفوز بها. 
+        
+                </li>
+                <li> <b> الألعاب الإلكترونية تساعد الأشخاص المُهمشين في المجتمع:</b>
+                    يَتمكن الأشخاص المُهمشين اجتماعياً من التواصل مع الناس من خلال العالم الافتراضي، ويتم تَقبُلهم تدريجياً بين الناس من خِلال الألعاب مُتعددة اللاعبين، إذ يتمكن من التواصل مع أشخاص جدد وتكوين صداقات جديدة كذلك.             
+                    </li>
+                    <li> <b> الألعاب الإلكترونية تُستخدم كأدوات للتدريس:</b>
+                        فقد قامت بعض المؤسسات التعليمية بتضمين مواد تعليمية في الألعاب الإلكترونية، إذ تُنمي المهارات الحياتية المختلفة وتُحسنها، بالإضافة إلى أن العملية التعليمية تُصبح أكثر مُتعة.                
+                        </li>
+                        <li> <b>  الألعاب الإلكترونية تُستخدم كوسيلة فنية:</b>
+                            حيث إن الألعاب الإلكترونية تُساهم بشكل كبير في صناعة بعض الوسائط الفنية، مثل الموسيقى والأفلام.                    
+                            </li>
+
+</ul>
+</section>
+<section class="main" id="dam">
+    <h2>سلبيات الألعاب الإلكترونية</h2>
+    <h4>الأضرار الصحية</h4>
+    <p>
+        إن الإفراط في ممارسة الألعاب الإلكترونية يؤدي إلى إصابة الأطفال بكثير من الأضرار الصحية منها ضعف القدرة على الإبصار بسبب قضاء الأوقات الطويلة أمام شاشة الكمبيوتر والأجهزة الرقمية، وكذلك الإصابة بالصداع أو الإجهاد وتشنجات في عضلات العنق بالإضافة إلى آلام الظهر والكتفين، ومن المشاكل الصحية أيضاً زيادة الوزن بسبب كثرة الجلوس أمام تلك الأجهزة.
+    </p>
+    <br>
+    <h4>الآثار الاجتماعية</h4>
+    <p>
+        حيث يتعلم بعض الأطفال سلوكيات عدوانية من خلال ممارسة ألعاب الحرب والقتال والمغامرات القتالية أو احتراف الجريمة، فالطفل يرغب في تجريب ما هو جديد باستمرار بالإضافة إلى تقليد ما يشاهده في تلك الألعاب بالإضافة إلى تقمص أدوار البطولة التي يشاهدها أو يمارسها في عالمه الافتراضي داخل الألعاب الإلكترونية التي يواظب عليها أو يختارها دون رقابة أسرية على ذلك، وقد يؤدي ذلك إلى اضطراب في سلوك الأفراد بسبب التأثر بما يتعلمونه أو يرغبون في محاكاته من الألعاب الإلكترونية. التأخر الدراسي: في كثير من الأحيان يؤدي انشغال الأطفال وإدمانهم للألعاب الإلكترونية إلى التقصير في الواجبات المدرسية وإهمال الدراسة؛ مما يؤدي إلى التأخر الدراسي وقلة التحصيل والإصابة ببلادة الإحساس وعدم الشعور بالغيرة من أقرانه المتفوقين دراسيا بسبب الهروب من الواقع المؤلم إلى العالم الافتراضي الذي يجد فيه المتعة والتسلية.    </p>
+   <br>
+        <h4>سلبيات دينية وأخلاقية</h4>
+    <p>
+        تحتوي كثير من الألعاب الإلكترونية على صور عارية أو مناظر تخالف العقيدة والقيم الأخلاقية أو الإشارة إلى بعض الشعارات الدينية والسخرية من أخرى؛ وذلك يرسخ بعض القيم والمفاهيم المغلوطة لدى الأطفال والتي قد تتنافى مع العقيدة الدينية أو القيم المجتمعية.
+        ضعف القدرة على التركيز: تشير بعض الدراسات والأبحاث إلى أن الألعاب التعليمية تؤثر سلبيا على قدرة الأطفال على التركيز؛ حيث تعمل على تشتيت انتباه الطالب من خلال تخيل أحداث الألعاب العالم الافتراضي الذي أدمن العيش فيه؛ مما يؤثر على قدرته على التركيز والحفظ والاستذكار وغير ذلك.    </p>
+    <br>
+        <h4>الانطواء والسلبية</h4>
+    <p>
+        يؤدي إدمان الألعاب الإلكترونية إلى تجنب الأطفال للتواصل مع الآخرين والميل إلى الانطواء والكآبة والاعتكاف على النفس بسبب قضاء الساعات الطوال أمام تلك الألعاب بعيدا عن الأهل والمقربين من الأصدقاء والأقران، وقد أشارت بعض الدراسات الحديثة إلى أن أحد أسباب إصابة الأطفال بمرض التوحد هو الانعزال عن الآخرين والانشغال بالأجهزة الحديثة والألعاب الإلكترونية.    </p>
+    <br>
+        <h4>مضيعة للوقت</h4>
+    <p>
+        إن الوقت كنز ثمين يجب استغلاله أفضل استغلال، ومن أخطر سلبيات الألعاب الإلكترونية أنها تضيع الوقت بشكل كبير؛ حيث لا يشعر اللاعبون بمرور الوقت أمام تلك الأجهزة الإلكترونية الحديثة بسبب إدمان تلك الألعاب وقضاء الساعات أمامها دون وعي لخطورة تلك المشكلة التي قد تؤدي إلى ضياع سنوات من عمر الإنسان دون نفع أو فائدة.    </p>
+    <br>
+        <h4>الإصابة بمخاطر الإشعاعات الكهرومغناطيسية</h4>
+    <p>
+        تنبعث بعض الأشعة من الأجهزة المستخدمة في الألعاب الإلكترونية تسمى (الأشعة الكهرومغناطيسية) والتي يقوم الجسم البشري بامتصاصها؛ مما ينتج عن ذلك إصابته بالعديد من المخاطر الصحية كالتوتر والقلق غير المبرر وكثير من الانفعالات السلبية والتهابات المفاصل والإصابة بأمراض هشاشة العظام وزيادة فرص الإصابة بحساسية الصدر والجلد.    </p>
+
+
+</section>
+<section id="popular" class="main">
+    <h2>هناك العديد من الألعاب الإلكترونية المتاحة في السوق بعض الألعاب الشهيرة والمحبوبة حاليًا تشمل:</h2>
+<br> <br> <br>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="fortnite.jpg" alt="Avatar"  height="150" width="150">
+    </div>
+    <div class="flip-card-back">
+      <h2> (Fortnite)</h2> 
+      <p>فورتنايت</p> 
+      <p> لعبة معركة رويال تتضمن القتال وبناء الهياكل. </p>
+    </div>
+  </div>
+</div>
+<br>
+<div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="/lol.jpg" alt="Avatar"  height="150" width="150">
+      </div>
+      <div class="flip-card-back">
+        <h2> (League of Legends)</h2> 
+        <p>ليج اوف ليجندز</p> 
+        <p> لعبة متعددة اللاعبين عبر الإنترنت في نمط المعركة والاستراتيجية. </p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="/cod.jpg" alt="Avatar"  height="150" width="150">
+      </div>
+      <div class="flip-card-back">
+        <h2> (Call of Duty)</h2> 
+        <p>كول اوف ديوتي</p> 
+        <p> سلسلة من ألعاب إطلاق النار التي تأخذك في مغامرات عسكرية مثيرة. </p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="/witcher.jpg" alt="Avatar"  height="150" width="150">
+      </div>
+      <div class="flip-card-back">
+        <h2> (The Witcher 3)</h2> 
+        <p>ذا ويتشر 3</p> 
+        <p> لعبة تقمص أدوار تجري في عالم فانتازيا مفتوح وتحكي قصة جيرالت من ريفيا.  </p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="/grand.jpg" alt="Avatar"  height="150" width="150">
+      </div>
+      <div class="flip-card-back">
+        <h2> (Grand Theft Auto V)</h2> 
+        <p>غراند ثفت أوتو</p> 
+        <p>  لعبة عالم مفتوح تتضمن الجريمة والقيادة والحرية الكاملة في الاستكشاف.  </p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="/minecraft.jpg" alt="Avatar"  height="150" width="150">
+      </div>
+      <div class="flip-card-back">
+        <h2> (Minecraft)</h2> 
+        <p> ماين كرافت</p> 
+        <p>   لعبة بناء وبقاء تسمح لك ببناء عوالم خيالية واستكشافها.  </p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="/last.jpg" alt="Avatar"  height="150" width="150">
+      </div>
+      <div class="flip-card-back">
+        <h2> (The Last of Us)</h2> 
+        <p> ذا لاست أوف أس</p> 
+        <p>   لعبة حركة ومغامرة تدور حول النجاة في عالم ما بعد الكارثة.  </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
